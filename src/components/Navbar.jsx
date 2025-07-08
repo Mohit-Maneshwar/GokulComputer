@@ -63,12 +63,14 @@ const Navbar = () => {
             <X className="h-7 w-7 text-gray-800" />
           </button>
         </div>
-        <Link onClick={() => setIsOpen(false)} to="/" className="text-lg text-white font-bold hover:text-blue-600 transition">Home</Link>
-        <Link onClick={() => setIsOpen(false)} to="/about" className="text-lg text-white font-bold hover:text-blue-600 transition">About</Link>
-        <Link onClick={() => setIsOpen(false)} to="/courses" className="text-lg text-white font-bold hover:text-blue-600 transition">Courses</Link>
-        <Link onClick={() => setIsOpen(false)} to="/faculty" className="text-lg text-white font-bold hover:text-blue-600 transition">Faculty</Link>
-        <Link onClick={() => setIsOpen(false)} to="/gallery" className="text-lg text-white font-bold hover:text-blue-600 transition">Gallery</Link>
-        <Link onClick={() => setIsOpen(false)} to="/contact" className="text-lg text-white font-bold hover:text-blue-600 transition">Contact</Link>
+        <div className="flex items-center flex-col gap-[1rem] h-[100vh] mb-6 w-full">
+        <Link onClick={() => setIsOpen(false)} to="/" className="text-lg text-gray-900 font-bold hover:text-blue-600 transition">Home</Link>
+        <Link onClick={() => setIsOpen(false)} to="/about" className="text-lg text-gray-900 font-bold hover:text-blue-600 transition">About</Link>
+        <Link onClick={() => setIsOpen(false)} to="/courses" className="text-lg text-gray-900 font-bold hover:text-blue-600 transition">Courses</Link>
+        <Link onClick={() => setIsOpen(false)} to="/faculty" className="text-lg text-gray-900 font-bold hover:text-blue-600 transition">Faculty</Link>
+        <Link onClick={() => setIsOpen(false)} to="/gallery" className="text-lg text-gray-900 font-bold hover:text-blue-600 transition">Gallery</Link>
+        <Link onClick={() => setIsOpen(false)} to="/contact" className="text-lg text-gray-900 font-bold hover:text-blue-600 transition">Contact</Link>
+        </div>
       </div>
     </nav>
   );

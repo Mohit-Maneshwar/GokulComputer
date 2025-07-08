@@ -12,7 +12,7 @@ const Home = () => {
             <br />
             what we are
             <br />
-            really <em className="italic font-bold">good</em> at.
+            really <em className="italic font-bold text-blue-600">good</em> at.
           </h1>
           <a
             href="/courses"
