@@ -1,4 +1,5 @@
 import muneshSir from "../assets/muneshSir.png";
+import image3 from "../assets/images/image3.jpg";
 
 const Home = () => {
   return (
@@ -59,7 +60,7 @@ const Home = () => {
       {/* About Snippet */}
       <section className="max-w-6xl mx-auto py-16 px-6 flex flex-col md:flex-row items-center gap-10">
         <img
-          src="https://plus.unsplash.com/premium_photo-1663090073232-a7e475ef1f38?w=600&auto=format&fit=crop&q=60"
+          src={image3}
           alt="Students learning"
           className="rounded-lg shadow-lg w-full md:w-1/2"
         />
@@ -81,37 +82,41 @@ const Home = () => {
         </div>
       </section>
 
-      
-
       {/* Extended Testimonials Section */}
-<section className="bg-white py-16 px-6 text-center max-w-6xl mx-auto">
-  <h2 className="text-4xl font-bold mb-10 text-gray-900">Testimonials</h2>
+      <section className="bg-white py-16 px-6 text-center max-w-6xl mx-auto">
+        <h2 className="text-4xl font-bold mb-10 text-gray-900">Testimonials</h2>
 
-  <blockquote className="bg-gray-50 p-8 rounded shadow mb-12 max-w-3xl mx-auto">
-    <p className="text-gray-700 italic mb-4 text-lg md:text-xl leading-relaxed">
-      “Since long ago, Gokul Computers is one of the trusted institutions in the district for its academic excellence.”
-    </p>
-    <footer className="text-blue-600 font-bold">— Mr. Vinod Bisen, Director, "OrisonHost"</footer>
-  </blockquote>
+        <blockquote className="bg-gray-50 p-8 rounded shadow mb-12 max-w-3xl mx-auto">
+          <p className="text-gray-700 italic mb-4 text-lg md:text-xl leading-relaxed">
+            “Since long ago, Gokul Computers is one of the trusted institutions
+            in the district for its academic excellence.”
+          </p>
+          <footer className="text-blue-600 font-bold">
+            — Mr. Vinod Bisen, Director, "OrisonHost"
+          </footer>
+        </blockquote>
 
-  <div className="flex flex-col md:flex-row gap-8 items-center bg-gray-50 p-8 rounded shadow max-w-4xl mx-auto">
-    <img
-      src={muneshSir}
-      alt="Dr. Munesh Thakre"
-      className="rounded-full w-40 h-40 object-cover mx-auto md:mx-0"
-    />
-    <div className="text-left">
-      <h3 className="text-2xl font-bold mb-2 text-blue-600">Dr. Munesh Thakre</h3>
-      <p className="text-gray-700 mb-2 font-semibold">Our Director</p>
-      <p className="text-gray-700 text-sm leading-relaxed">
-        Ph.D., M. Phil. (IT), MCA, MCM, M.Com, B.Ed., PGDCCA, PGDCA<br />
-        Assistant Professor - Dept. of Computer Management,<br />
-        N.M.D. College, Gondia
-      </p>
-    </div>
-  </div>
-</section>
-
+        <div className="flex flex-col md:flex-row gap-8 items-center bg-gray-50 p-8 rounded shadow max-w-4xl mx-auto">
+          <img
+            src={muneshSir}
+            alt="Dr. Munesh Thakre"
+            className="rounded-full w-40 h-40 object-cover mx-auto md:mx-0"
+          />
+          <div className="text-left">
+            <h3 className="text-2xl font-bold mb-2 text-blue-600">
+              Dr. Munesh Thakre
+            </h3>
+            <p className="text-gray-700 mb-2 font-semibold">Our Director</p>
+            <p className="text-gray-700 text-sm leading-relaxed">
+              Ph.D., M. Phil. (IT), MCA, MCM, M.Com, B.Ed., PGDCCA, PGDCA
+              <br />
+              Assistant Professor - Dept. of Computer Management,
+              <br />
+              N.M.D. College, Gondia
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* Call to Action Section */}
       <section className="bg-blue-600 text-white py-16 text-center">
