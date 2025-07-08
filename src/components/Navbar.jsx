@@ -32,15 +32,14 @@ const Navbar = () => {
         {/* Logo + Institute Name */}
         <div className="flex items-center space-x-2">
           <img src={logo} alt="Institute Logo" className="h-12 w-auto" />
-          <span className="inline text-xl font-bold text-gray-800">Gokul Computer</span>
+          <span className="inline text-2xl font-bold text-gray-800">Gokul Computer</span>
         </div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex space-x-6 text-lg font-bold text-gray-800">
+        <div className="hidden md:flex gap-[2rem] space-x-6 text-2xl font-bold text-gray-800">
           <Link to="/" className="hover:text-blue-600 transition">Home</Link>
           <Link to="/about" className="hover:text-blue-600 transition">About</Link>
           <Link to="/courses" className="hover:text-blue-600 transition">Courses</Link>
-          <Link to="/branches" className="hover:text-blue-600 transition">Branches</Link>
           <Link to="/faculty" className="hover:text-blue-600 transition">Faculty</Link>
           <Link to="/gallery" className="hover:text-blue-600 transition">Gallery</Link>
           <Link to="/contact" className="hover:text-blue-600 transition">Contact</Link>
@@ -64,13 +63,12 @@ const Navbar = () => {
             <X className="h-7 w-7 text-gray-800" />
           </button>
         </div>
-        <Link onClick={() => setIsOpen(false)} to="/" className="text-lg font-bold hover:text-blue-600 transition">Home</Link>
-        <Link onClick={() => setIsOpen(false)} to="/about" className="text-lg font-bold hover:text-blue-600 transition">About</Link>
-        <Link onClick={() => setIsOpen(false)} to="/courses" className="text-lg font-bold hover:text-blue-600 transition">Courses</Link>
-        <Link onClick={() => setIsOpen(false)} to="/branches" className="text-lg font-bold hover:text-blue-600 transition">Branches</Link>
-        <Link onClick={() => setIsOpen(false)} to="/faculty" className="text-lg font-bold hover:text-blue-600 transition">Faculty</Link>
-        <Link onClick={() => setIsOpen(false)} to="/gallery" className="text-lg font-bold hover:text-blue-600 transition">Gallery</Link>
-        <Link onClick={() => setIsOpen(false)} to="/contact" className="text-lg font-bold hover:text-blue-600 transition">Contact</Link>
+        <Link onClick={() => setIsOpen(false)} to="/" className="text-lg text-white font-bold hover:text-blue-600 transition">Home</Link>
+        <Link onClick={() => setIsOpen(false)} to="/about" className="text-lg text-white font-bold hover:text-blue-600 transition">About</Link>
+        <Link onClick={() => setIsOpen(false)} to="/courses" className="text-lg text-white font-bold hover:text-blue-600 transition">Courses</Link>
+        <Link onClick={() => setIsOpen(false)} to="/faculty" className="text-lg text-white font-bold hover:text-blue-600 transition">Faculty</Link>
+        <Link onClick={() => setIsOpen(false)} to="/gallery" className="text-lg text-white font-bold hover:text-blue-600 transition">Gallery</Link>
+        <Link onClick={() => setIsOpen(false)} to="/contact" className="text-lg text-white font-bold hover:text-blue-600 transition">Contact</Link>
       </div>
     </nav>
   );
