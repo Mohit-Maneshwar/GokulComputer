@@ -82,6 +82,31 @@ const Home = () => {
         </div>
       </section>
 
+      <section className="bg-gray-50 py-20 px-6">
+  <div className="max-w-6xl mx-auto text-center">
+    <h2 className="text-4xl md:text-5xl font-bold text-blue-700 mb-6">
+      Who We Are??
+    </h2>
+    <p className="text-lg text-gray-700 leading-relaxed text-justify">
+      At <strong>Gokul Computers</strong>, we are not just an institute — we are a mission-driven community passionate about delivering top-tier IT education since <strong>2007</strong>. Our focus is on nurturing practical skills and making students industry-ready through a dynamic curriculum and hands-on training.
+      <br /><br />
+      We specialize in <strong>learning content development, training delivery, education process management</strong>, and custom <strong>project development</strong>. Whether you’re a beginner or aiming to upskill, we cater to all with our beginner to advanced-level courses.
+      <br /><br />
+      Our curriculum includes a wide range of subjects such as: 
+      <span className="font-semibold"> MS-Office, C, C++, Java, Advanced Java, Oracle, VB.Net, ASP.Net, C#.Net, PHP & MySQL, Web Development, HTML, CSS, JavaScript, Python, Graphic Design (Photoshop, CorelDRAW, Flash), SEO, Software Testing, Hardware & Networking, and Dot Net Technologies</span>.
+      <br /><br />
+      In addition to these, we also provide training aligned with <strong>University syllabi</strong> for BE, Polytechnic, BCCA, BCA, MCA, MCM, BSc, MSc, and classes for <strong>11th & 12th IT and CS (State & CBSE)</strong>. Our institute supports both academic excellence and industry preparation.
+      <br /><br />
+      Every learner gets the opportunity to work on <strong>Live Projects</strong> with real-world applications. We also offer dedicated <strong>project guidance for final-year students</strong> to help them complete their academic journey successfully.
+      <br /><br />
+      Our training is available in <strong>Crash, Fast Track, and Regular batches</strong> to suit your timing and learning needs. Over the years, we’ve proudly trained thousands of students and professionals who are now contributing meaningfully to the tech world.
+      <br /><br />
+      Join us and be part of an institution that believes in quality, commitment, and career success.
+    </p>
+  </div>
+</section>
+
+
       {/* Extended Testimonials Section */}
       <section className="bg-white py-16 px-6 text-center max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold mb-10 text-gray-900">Testimonials</h2>
