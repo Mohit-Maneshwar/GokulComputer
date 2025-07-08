@@ -1,5 +1,5 @@
 import muneshSir from "../assets/muneshSir.png";
-import image3 from "../assets/images/image3.jpg";
+// import image3 from "../assets/images/image3.jpg";
 
 const Home = () => {
   return (
@@ -60,7 +60,7 @@ const Home = () => {
       {/* About Snippet */}
       <section className="max-w-6xl mx-auto py-16 px-6 flex flex-col md:flex-row items-center gap-10">
         <img
-          src={image3}
+          src="https://plus.unsplash.com/premium_photo-1663090073232-a7e475ef1f38?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8U3R1ZGVudHMlMjBsZWFybmluZ3xlbnwwfHwwfHx8MA%3D%3D"
           alt="Students learning"
           className="rounded-lg shadow-lg w-full md:w-1/2"
         />
